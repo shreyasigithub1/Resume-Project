@@ -1,0 +1,447 @@
+/* Importing Poppins google font */
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Yellowtail&display=swap");
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.header-sec {
+  background-image: url(image/macbook_mouse.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 60vh;
+  opacity: 0.8;
+  position: relative;
+}
+.navbar a {
+  padding: 0.5rem;
+  transition: all 0.5s;
+  text-decoration: none;
+  color:white;
+}
+
+.navbar a:hover {
+  cursor: pointer;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px;
+}
+/* Hamburger menu */
+.hamburger-menu {
+  display: none;
+}
+.navlist {
+  display: none;
+}
+
+/* namebar */
+.namebar {
+  height: 85%;
+}
+.namebar h2 {
+  font-size: 4rem;
+}
+
+.icons {
+  margin-top: 1rem;
+}
+.icons a{
+ text-decoration:none;   
+}
+.icons i {
+  border: 15px solid transparent;
+  border-radius: 80%;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+  color:white;
+}
+
+.icons i:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px 10px rgba(163, 192, 222, 0.4);
+}
+
+.photo img {
+  position: absolute;
+  top: 75%;
+
+  width: 14rem;
+  height: 14rem;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+/* Introduction styling */
+.intro {
+  margin-top: 8rem;
+  width: 70% !important;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.intro em {
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(41, 77, 152);
+}
+/* Skill styling */
+
+.skill {
+  height: 32rem;
+  background-color: rgb(238, 235, 235);
+}
+.skillhead {
+  padding-top: 4rem;
+  color: rgb(41, 77, 152);
+  text-align: center;
+  
+}
+.skillhead i {
+  font-size: 3.5rem;
+}
+.skillset {
+  padding-top: 10rem;
+}
+.f-skill {
+  padding-bottom: 2.5rem;
+}
+.skillset p {
+  border: 1px solid black;
+  border-radius: 5rem;
+  width: 12rem;
+
+  height: 2.25rem;
+  padding: 0.25rem;
+  color: white;
+}
+#c {
+  background: linear-gradient(to right, rgb(72, 106, 181) 50%, transparent 50%);
+}
+#html {
+  background: linear-gradient(to right, rgb(203, 74, 32) 75%, transparent 25%);
+}
+#css {
+  background: linear-gradient(
+    to right,
+    rgb(226, 162, 217) 80%,
+    transparent 20%
+  );
+}
+#js {
+  background: linear-gradient(to right, rgb(46, 100, 17) 70%, transparent 30%);
+}
+#nodejs {
+  background: linear-gradient(to right, rgb(187, 71, 172) 50%, transparent 50%);
+}
+#mongodb {
+  background: linear-gradient(to right, rgb(72, 106, 181) 80%, transparent 20%);
+}
+
+/* Work Experience styling */
+
+.workhead {
+  padding-top: 4rem;
+  color: rgb(41, 77, 152);
+  text-align: center;
+}
+.workhead i {
+  font-size: 3.5rem;
+  padding-right: 1rem;
+}
+.wcard {
+  margin-top: 4rem !important;
+  height: 16rem;
+  width: 43% !important;
+  position: relative;
+  text-align: end;
+  padding: 4rem;
+  
+}
+.wcard img {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 3.6rem;
+  left: 0;
+}
+
+.bl {
+  height: 8rem;
+  width: 40%;
+}
+
+/* for the plane animation */
+.plane {
+  font-size: 2.5rem;
+  color: rgb(41, 77, 152);
+  transform: rotate(90deg);
+}
+
+.work {
+  position: relative;
+}
+
+#dottedline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-image i {
+  position: absolute;
+  top: 17.5%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  z-index: 1;
+}
+
+.work:hover .middle-image i {
+  animation: moveicon 6s linear forwards;
+}
+@keyframes moveicon {
+  0% {
+    top: 17.5%;
+  }
+  50% {
+    top: 50%;
+  }
+  100% {
+    top: 84%;
+  }
+}
+
+#heading h4 {
+  color: rgb(41, 77, 152);
+}
+#heading h5 {
+  color: rgb(243, 116, 6);
+}
+/*Education styling  */
+.econ {
+  background-color: rgb(238, 235, 235);
+  margin-top: 5rem;
+  height: 72rem;
+}
+/* Portfolio styling */
+
+.insidetab img {
+  width: 22rem;
+  height: 18rem;
+  border: 1px solid white;
+}
+
+.insidetab img:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px 10px rgba(85, 142, 202, 0.4);
+}
+
+.insidetab {
+  position: relative;
+}
+.hover-box p {
+  color: white;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+.hover-box {
+  display: none;
+}
+
+/* Show the square box on hover */
+.insidetab:hover .hover-box {
+  display: block;
+  width: 22rem;
+  height: 18rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  background-color: rgba(196, 184, 184, 0.5);
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease;
+  z-index: 1;
+}
+/* Contact styling */
+
+.contactback{
+    background-image:linear-gradient(to right,rgb(80, 105, 159),rgb(20, 61, 150));
+    margin-top:6rem;
+    
+}
+#contacthead{
+    color:white;
+}
+.form-style input,.form-style textarea{
+    border: none; 
+    border-radius: 0;
+  outline: none; 
+  border-bottom: 1px solid white; 
+  background-color: transparent; 
+  color: white; 
+   padding: 10px 10px; 
+  font-size: 16px;
+}
+.form-style input::placeholder {
+    color: rgb(212, 211, 211); 
+    
+}
+.form-style textarea::placeholder {
+    color: rgb(212, 211, 211); 
+    
+}
+.form-style textarea{
+    width:100%;
+    
+}
+.sms{
+    color:white !important;
+    border: 2px solid white !important;
+    border-radius: none !important;
+    background-color: transparent;
+    text-transform: uppercase;
+    padding:1rem 1.5rem;
+    font-weight: 700;
+    
+}
+
+.smsdiv{
+    display:flex;
+    justify-content: center;
+}
+
+.get-in-touch{
+    color:white;
+}
+.add{
+    margin-bottom:2rem;
+}
+
+.get-in-touch h5,.get-in-touch p{
+    margin-bottom:2rem;
+}
+.cform,.get-in-touch{
+    width:45%;
+}
+
+.cmain{
+    padding:5rem 2rem;
+}
+/* footer styling */
+footer{
+    background-image:linear-gradient(to right,rgb(80, 105, 159),rgb(20, 61, 150));
+    display:flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+#footer-icons{
+    color:white;
+    font-size:1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 992px) {
+  /* for skillset */
+  .skillset p {
+    width: 20rem;
+  }
+  .f-skill {
+    padding: 0;
+  }
+}
+@media screen and (max-width:780px) {
+.cform,.get-in-touch{
+    width:100%;
+
+}
+.cmain{
+    padding:4rem 2rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+  /* for skillset */
+
+  .skillset {
+    padding-top: 2rem;
+  }
+  /* For work experience */
+  .bl {
+    display: none;
+  }
+  .threecards {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .wcard {
+    width: 80% !important;
+    height: 15rem;
+    padding-left: 4rem;
+  }
+  #dottedline {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+
+  .middle-image i {
+    position: absolute;
+    top: 17.5%;
+    left: 10%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  /* For header */
+  .namebar h2 {
+    font-size: 3rem;
+  }
+  .navbar a {
+    display: none;
+  }
+  .hamburger-menu {
+    color: white;
+    display: block;
+    margin-left: 95%;
+    position: relative;
+  }
+  .navlist {
+    display: block;
+    position: absolute;
+
+    width: 8rem;
+    margin-left: 70%;
+    text-align: center;
+    background-color: rgb(105, 102, 102);
+    color: white;
+  }
+  .navlist ul li a {
+    margin: 0;
+    padding: 0.25rem;
+  }
+  .navlist ul li a:hover{
+    text-decoration: underline;
+  }
+  /* For introduction */
+  .intro {
+    width: 100% !important;
+  }
+}

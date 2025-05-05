@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Project</title>
+    <!-- Linking the stylesheet -->
+    <link rel="Stylesheet" href="style.css" />
+    <!-- Bootstrap CDN links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome link -->
+
+    <script
+      src="https://kit.fontawesome.com/470799a92f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <section class="container-fluid header-sec">
+        <div class="navbar d-flex justify-content-center text-light">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#sk">Skills</a>
+          <a href="#ex">Experience</a>
+          <a href="#ed">Education</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#cn">Contact</a>
+        </div>
+        <!-- Hamburger menu for small screen -->
+        <div class="hamburger-menu">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbar-list"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars fs-5"></i>
+          </button>
+        </div>
+
+        <!-- Collapsible navigation -->
+        <div class="collapse navbar-collapse navlist" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sk">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ex">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ed">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cn">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- namebar,icons -->
+        <div
+          class="namebar d-flex flex-column align-items-center justify-content-center text-light"
+        >
+          <div class="name">
+            <h2>My Name</h2>
+          </div>
+          <div class="icons">
+            <a href="https://www.linkedin.com/products/codingninjas-coding-ninjas/" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            
+            <a href="https://github.com" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://x.com/CodingNinjasOff?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/@codingninjas/" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Quora" target="_blank">
+              <i class="fa-brands fa-quora"></i>
+            </a>
+
+            
+          </div>
+        </div>
+        <!-- Resume image  -->
+        <div class="photo d-flex justify-content-center">
+          <img src="image/testimonials-03.jpg" />
+        </div>
+      </section>
+    </header>
+    <!-- Introduction -->
+    <p class="container text-secondary intro" id="about">
+      Lorem Ipsum is simply dummy text of the printing and
+      <em>typesetting industry</em> Lorem Ipsum has been the industry's standard
+      <em>dummy text ever</em> since the 1500s, when an unknown printer took a
+      galley of type and scrambled it to make a type specimen book. It has
+      survived not only five centuries, but also the leap into electronic
+      typesetting, remaining essentially unchanged. It was popularised in the
+      1960s <em>with the release of Letraset</em> sheets containing Lorem Ipsum.
+    </p>
+    <!-- Skills -->
+    <div class="container-fluid" id="sk">
+      <section class="skill">
+        <div class="skillhead">
+          <i class="fa-solid fa-laptop-code"></i>
+          <span class="display-4">Skills</span>
+        </div>
+        <div class="skillset">
+          <div class="d-flex flex-wrap f-skill justify-content-evenly">
+            <p id="c">C++</p>
+            <p id="html">HTML</p>
+            <p id="css">CSS</p>
+            <p id="js">Javascript</p>
+          </div>
+          <div class="d-flex flex-wrap s-skill justify-content-evenly">
+            <p id="nodejs">NodeJs</p>
+            <p id="mongodb">MongoDB</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Work Experience -->
+    <div class="container-fluid wcon" id="ex">
+      <section class="work">
+        <div class="workhead">
+          <i class="fa-solid fa-briefcase"></i>
+          <span class="display-4">Work Experience</span>
+        </div>
+        <!-- first work cards -->
+        <div class="threecards row justify-content-center">
+          <div class="wcard col-6">
+            <img src="image/ninjasicon.png" />
+            <div id="heading">
+              <h4>Designation</h4>
+              <h5>Company name</h5>
+              <h6 class="text-secondary">Month YYYY - Month YYYY</h6>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <!--  -->
+          <div class="col-6 bl"></div>
+          <!--  -->
+
+          <div class="col-6 bl"></div>
+          <!-- second work cards -->
+          <div class="wcard col-md-6">
+            <img src="image/ninjasicon.png" />
+            <div id="heading">
+              <h4>Designation</h4>
+              <h5>Company name</h5>
+              <h6 class="text-secondary">Month YYYY - Month YYYY</h6>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+
+          <!-- third work cards -->
+          <div class="wcard col-6">
+            <img src="image/ninjasicon.png" />
+            <div id="heading">
+              <h4>Designation</h4>
+              <h5>Company name</h5>
+              <h6 class="text-secondary">Month YYYY - Month YYYY</h6>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <!--  -->
+          <div class="col-6 bl"></div>
+        </div>
+        <!-- Plane  -->
+
+        <div class="middle-image">
+          <i class="fa-solid fa-plane plane"></i>
+
+          <img src="image/dotted-line.png" id="dottedline" />
+        </div>
+      </section>
+    </div>
+    <!-- Education -->
+    <div class="container-fluid" id="ed">
+      <section class="work econ">
+        <div class="workhead">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span class="display-4">Education</span>
+        </div>
+        <!-- first education card -->
+        <div class="threecards row justify-content-center">
+          <div class="wcard col-6">
+            <img src="image/iiitd_logo.png" />
+            <div id="heading">
+              <h4>Degree</h4>
+              <h5>Institute name</h5>
+              <h6 class="text-secondary">Month YYYY - Month YYYY</h6>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <!--  -->
+          <div class="col-6 bl"></div>
+          <!--  -->
+
+          <div class="col-6 bl"></div>
+          <!-- second education card -->
+          <div class="wcard col-md-6">
+            <img src="image/iiitd_logo.png" />
+            <div id="heading">
+              <h4>Degree</h4>
+              <h5>Institute name</h5>
+              <h6 class="text-secondary">Month YYYY - Month YYYY</h6>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+
+          <!-- third education cards -->
+          <div class="wcard col-6">
+            <img src="image/iiitd_logo.png" />
+            <div id="heading">
+              <h4>Degree</h4>
+              <h5>Institute name</h5>
+              <h6 class="text-secondary">Month YYYY - Month YYYY</h6>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <!--  -->
+          <div class="col-6 bl"></div>
+        </div>
+        <!-- Plane  -->
+
+        <div class="middle-image">
+          <i class="fa-solid fa-car-side plane"></i>
+          <img src="image/dotted-line.png" id="dottedline" />
+        </div>
+      </section>
+    </div>
+    <!-- Portfolio -->
+    <div class="container-fluid" id="portfolio">
+      <section class="education">
+        <div class="workhead">
+          <i class="fa-solid fa-book-open"></i>
+          <span class="display-4">Portfolio</span>
+        </div>
+        <div class="tabs gap-5 d-flex flex-wrap justify-content-center mt-5">
+          
+          <div class="insidetab">
+            <img src="image/codezen_2.png" />
+            <div class="hover-box">
+              <p>Write here basic details about the project.</p>
+            </div>
+          </div>
+          <div class="insidetab">
+            <img src="image/project_2.jpeg" />
+            <div class="hover-box">
+              <p>Write here basic details about the project.</p>
+            </div>
+          </div>
+          <div class="insidetab">
+            <img src="image/project.jpeg" />
+            <div class="hover-box">
+              <p>Write here basic details about the project.</p>
+            </div>
+            
+          </div>
+          
+          <div class="insidetab">
+            <img src="image/project_3.png" />
+            <div class="hover-box">
+              <p>Write here basic details about the project.</p>
+            </div>
+          </div>
+          <div class="insidetab">
+            <img src="image/codezen.png" />
+            <div class="hover-box">
+              <p>Write here basic details about the project.</p>
+            </div>
+          </div>
+          <div class="insidetab">
+            <img src="image/tree.jpeg" />
+            <div class="hover-box">
+              <p>Write here basic details about the project.</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+    <!-- Contact -->
+    <div class="container-fluid contactback" id="cn" >
+      <section class="contact" >
+        <div class="workhead" id="contacthead">
+          <i class="fa-solid fa-address-card"></i>
+          <span class="display-4">Contact</span>
+        </div>
+        <div class="cmain d-flex flex-wrap gap-5">
+          <!-- form div -->
+          <div class="cform">
+            <form>
+              <div class="mb-5 form-style">
+                
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-5 form-style">
+               
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="mb-5 form-style">
+                
+                <textarea
+                  id="message"
+                  class="bottom-line-textarea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="smsdiv">
+                <button class="sms">Send Message</button>
+              </div>
+            </form>
+          </div>
+          <!-- get-in-touch div -->
+          <div class="get-in-touch">
+            <h5>Get in touch</h5>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
+            </p>
+            <h5>My Address</h5>
+
+            <div class="add">
+              <i class="fa-solid fa-location-dot"></i>
+              <span class="ms-2">Delhi,India</span>
+            </div>
+            <div class="add">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <span class="ms-2">9999999999</span>
+            </div>
+            <div class="add">
+              <i class="fa-regular fa-envelope"></i>
+              <span class="ms-2">myemail@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+     <footer>
+      
+      <div class="icons" id="footer-icons">
+        <a href="https://www.linkedin.com/products/codingninjas-coding-ninjas/" target="_blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        
+        <a href="https://github.com" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://x.com/CodingNinjasOff?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/@codingninjas/" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Quora" target="_blank">
+          <i class="fa-brands fa-quora"></i>
+        </a>
+
+        
+      </div>
+     </footer>
+  </body>
+</html>
